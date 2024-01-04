@@ -1,7 +1,8 @@
 repo_name: ashleanichols/mongodb-kubernetes-operator
 report_id: aaf7575d823c290ef59e26958ef50177
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T16:53:15+00:00'
+timestamp: '2024-01-04T15:07:08+00:00'
 requested_by: chatton
 provider: github
 branch: master
@@ -17,6 +18,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/ashleanichols/mongodb-kubernetes-operator
   detection_source: Repo Metadata
 - name: Jinja
   description: Full featured template engine for Python
@@ -28,7 +30,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
-  detection_source_url: Pipfile.lock
+  detection_source_url: https://github.com/ashleanichols/mongodb-kubernetes-operator/blob/master/Pipfile.lock
   detection_source: requirements.txt
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-03-22 12:31:14.000000000 Z
@@ -41,6 +43,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ashleanichols/mongodb-kubernetes-operator
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -51,6 +54,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/ashleanichols/mongodb-kubernetes-operator
   detection_source: Repo Metadata
 - name: MongoDB
   description: The database for giant ideas
@@ -60,7 +64,8 @@ tools:
   category: Data Stores
   sub_category: Databases
   image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
-  detection_source: test/e2e/util/mongotester/mongotester_test.go
+  detection_source_url: https://github.com/ashleanichols/mongodb-kubernetes-operator/blob/master/go.mod
+  detection_source: go.mod
   last_updated_by: Ciprian Tibulca
   last_updated_on: 2021-06-09 10:02:55.000000000 Z
 - name: Git
@@ -71,6 +76,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ashleanichols/mongodb-kubernetes-operator
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -80,7 +86,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/release-single-image.yml"
+  detection_source_url: https://github.com/ashleanichols/mongodb-kubernetes-operator/blob/master/.github/workflows/close-stale-issues.yml
+  detection_source: ".github/workflows/close-stale-issues.yml"
   last_updated_by: James Broadhead
   last_updated_on: 2021-04-22 11:38:44.000000000 Z
 - name: Kubernetes
@@ -94,8 +101,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Container Tools
   image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
-  detection_source_url: Pipfile.lock
-  detection_source: requirements.txt
+  detection_source_url: https://github.com/ashleanichols/mongodb-kubernetes-operator/blob/master/Pipfile.lock
+  detection_source: go.mod
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-06-02 11:09:51.000000000 Z
 - name: PyPI
@@ -106,7 +113,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
-  detection_source: requirements.txt
+  detection_source_url: https://github.com/ashleanichols/mongodb-kubernetes-operator/blob/master/Pipfile
+  detection_source: Pipfile
   last_updated_by: Priyadarshi Lahiri
   last_updated_on: 2021-06-03 10:56:58.000000000 Z
 - name: Testify
@@ -119,6 +127,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Go Testing
   image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/ashleanichols/mongodb-kubernetes-operator/blob/master/go.mod
   detection_source: go.mod
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-03-22 17:01:49.000000000 Z
@@ -131,10 +140,11 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ashleanichols/mongodb-kubernetes-operator
   detection_source: Repo Metadata
 - name: PyYAML
   description: YAML parser and emitter for Python
-  package_url: https://pypi.org/PyYAML
+  package_url: https://pypi.org/project/PyYAML
   version: 5.4.1
   license: MIT
   open_source: true
@@ -142,25 +152,26 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19829/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
-  detection_source_url: Pipfile
+  detection_source_url: https://github.com/ashleanichols/mongodb-kubernetes-operator/blob/master/Pipfile
   detection_source: Pipfile
   last_updated_by: Priyadarshi Lahiri
   last_updated_on: 2021-06-03 10:56:58.000000000 Z
 - name: black
   description: The uncompromising code formatter
-  package_url: https://pypi.org/black
+  package_url: https://pypi.org/project/black
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/ashleanichols/mongodb-kubernetes-operator/blob/master/Pipfile
   detection_source: Pipfile
   last_updated_by: Priyadarshi Lahiri
   last_updated_on: 2021-06-03 10:56:58.000000000 Z
 - name: boto3
   description: The AWS SDK for Python
-  package_url: https://pypi.org/boto3
+  package_url: https://pypi.org/project/boto3
   version: 1.16.21
   license: Apache-2.0
   open_source: true
@@ -168,13 +179,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19840/default_1c41e593803157c668b26f27387160254f0f5371.png
-  detection_source_url: Pipfile.lock
-  detection_source: requirements.txt
+  detection_source_url: https://github.com/ashleanichols/mongodb-kubernetes-operator/blob/master/Pipfile.lock
+  detection_source: Pipfile
   last_updated_by: Priyadarshi Lahiri
   last_updated_on: 2021-06-03 10:56:58.000000000 Z
 - name: dnspython
   description: DNS toolkit
-  package_url: https://pypi.org/dnspython
+  package_url: https://pypi.org/project/dnspython
   version: 2.0.0
   license: Other
   open_source: true
@@ -182,13 +193,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20249/default_47b8ee8db82e43d9eef35923435bd8cc855f3a1b.png
-  detection_source_url: Pipfile.lock
+  detection_source_url: https://github.com/ashleanichols/mongodb-kubernetes-operator/blob/master/Pipfile.lock
   detection_source: Pipfile
   last_updated_by: Priyadarshi Lahiri
   last_updated_on: 2021-06-03 10:56:58.000000000 Z
 - name: docker
   description: A Python library for the Docker Engine API
-  package_url: https://pypi.org/docker
+  package_url: https://pypi.org/project/docker
   version: 4.3.1
   license: Apache-2.0
   open_source: true
@@ -196,13 +207,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19882/default_3863c7bb51d307217c188e059f67ca417c51efe3.png
-  detection_source_url: Pipfile.lock
+  detection_source_url: https://github.com/ashleanichols/mongodb-kubernetes-operator/blob/master/Pipfile.lock
   detection_source: Pipfile
   last_updated_by: Priyadarshi Lahiri
   last_updated_on: 2021-06-03 10:56:58.000000000 Z
 - name: mypy
   description: Optional static typing for Python
-  package_url: https://pypi.org/mypy
+  package_url: https://pypi.org/project/mypy
   version: '0.782'
   license: MIT
   open_source: true
@@ -210,13 +221,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20219/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
-  detection_source_url: Pipfile.lock
+  detection_source_url: https://github.com/ashleanichols/mongodb-kubernetes-operator/blob/master/Pipfile.lock
   detection_source: Pipfile
   last_updated_by: Priyadarshi Lahiri
   last_updated_on: 2021-06-03 10:56:58.000000000 Z
 - name: pymongo
   description: Python driver for MongoDB &lt;http://www.mongodb.org&gt;
-  package_url: https://pypi.org/pymongo
+  package_url: https://pypi.org/project/pymongo
   version: 3.11.2
   license: Apache-2.0
   open_source: true
@@ -224,13 +235,13 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19865/default_7975a21f3bf03129dc3bc4168cf7cb7ee2cc14cc.png
-  detection_source_url: Pipfile.lock
+  detection_source_url: https://github.com/ashleanichols/mongodb-kubernetes-operator/blob/master/Pipfile.lock
   detection_source: Pipfile
   last_updated_by: Priyadarshi Lahiri
   last_updated_on: 2021-06-03 10:56:58.000000000 Z
 - name: rsa
   description: Pure-Python RSA implementation
-  package_url: https://pypi.org/rsa
+  package_url: https://pypi.org/project/rsa
   version: 4.7.2
   license: Apache-2.0
   open_source: true
@@ -238,19 +249,20 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20021/default_faea030602e3d71554c57e6fc53190ac830da00d.png
-  detection_source_url: Pipfile.lock
+  detection_source_url: https://github.com/ashleanichols/mongodb-kubernetes-operator/blob/master/Pipfile.lock
   detection_source: Pipfile
   last_updated_by: Priyadarshi Lahiri
   last_updated_on: 2021-06-03 10:56:58.000000000 Z
 - name: tqdm
   description: Fast, Extensible Progress Meter
-  package_url: https://pypi.org/tqdm
+  package_url: https://pypi.org/project/tqdm
   license: MPL-2.0,MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/ashleanichols/mongodb-kubernetes-operator/blob/master/Pipfile
   detection_source: Pipfile
   last_updated_by: Priyadarshi Lahiri
   last_updated_on: 2021-06-03 10:56:58.000000000 Z
